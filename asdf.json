@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "extends": ["schedule:{{args0}}"],
+      "extends": ["schedule:{{arg0}}"],
       "matchManagers": ["asdf"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "ASDF"
