@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":autodetectPinVersions",
+    ":automergeDigest",
+    ":automergeLinters",
+    ":automergeMinor",
+    ":automergePatch",
+    ":automergePr",
+    ":automergeRequireAllStatusChecks",
+    ":automergeTesters",
+    ":combinePatchMinorReleases",
+    ":dependencyDashboard",
+    ":enableVulnerabilityAlerts",
+    ":gitSignOff",
+    ":ignoreModulesAndTests",
+    ":ignoreUnstable",
+    ":labels(type: dependencies)",
+    ":maintainLockFilesMonthly",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":prImmediately",
+    ":renovatePrefix",
+    ":semanticCommitScope(deps)",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":separateMultipleMajorReleases",
+    "helpers:pinGitHubActionDigests",
+    "regexManagers:dockerfileVersions"
+  ]
+}

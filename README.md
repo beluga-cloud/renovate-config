@@ -41,6 +41,7 @@ If you manage Renovate for many repositories, then you should create a global pr
 
 ## List of existing presets
 
+- `github>belug-apps/renovate-config:default`: default Renovate configuration.
 - `github>belug-apps/renovate-config:gitmoji`: make every Renovate commits compatible with [Gitmoji](https://gitmoji.dev/).
 - `github>belug-apps/renovate-config:github-actions({{schedule}})`: groups all github-actions upgrades together to reduce the number of PRs.
   - `{{schedule}}`: defines when Github actions upgrade should be scheduled. Must be one of `daily`, `earlyMondays`, `monthly`, `nonOfficeHours`, `quarterly`, `weekdays`, `weekends`, `weekly` or `yearly`
