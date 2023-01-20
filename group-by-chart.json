@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchFiles": ["^charts/{{arg0}}/.+"],
+      "groupName": "charts {{argo0}} dependencies",
+      "groupSlug": "charts-{{arg0}}"
+    }
+  ]
+}
