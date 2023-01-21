@@ -2,7 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchFiles": ["^charts/{{arg0}}/.+"],
+      "matchPaths": ["charts/{{arg0}}/**"],
+      "matchDatasources": ["docker"],
       "groupName": "charts {{argo0}} dependencies",
       "groupSlug": "charts-{{arg0}}"
     }
