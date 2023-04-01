@@ -5,16 +5,11 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
+      "matchPackagePatterns": ["*"],
       "semanticCommitType": ":arrow_up: "
     },
     {
-      "matchDepTypes": [
-        "dependencies",
-        "require"
-      ],
+      "matchDepTypes": ["dependencies", "require"],
       "semanticCommitType": ":green_heart: "
     }
   ]

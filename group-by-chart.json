@@ -3,8 +3,7 @@
   "packageRules": [
     {
       "matchPaths": ["charts/{{arg0}}/**"],
-      "matchDatasources": ["docker"],
-      "groupName": "charts {{argo0}} dependencies",
+      "groupName": "charts `{{argo0}}` dependencies",
       "groupSlug": "charts-{{arg0}}"
     }
   ]

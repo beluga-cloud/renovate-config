@@ -5,7 +5,8 @@
       "extends": ["schedule:{{arg0}}"],
       "matchManagers": ["asdf"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "ASDF"
+      "groupName": "ASDF",
+      "groupSlug": "asdf"
     }
   ]
 }

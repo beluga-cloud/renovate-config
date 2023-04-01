@@ -47,3 +47,4 @@ If you manage Renovate for many repositories, then you should create a global pr
   - `{{schedule}}`: defines when Github actions upgrade should be scheduled. Must be one of `daily`, `earlyMondays`, `monthly`, `nonOfficeHours`, `quarterly`, `weekdays`, `weekends`, `weekly` or `yearly`
 - `github>belug-apps/renovate-config:asdf({{schedule}})`: groups all ASDF upgrades together to reduce the number of PRs.
   - `{{schedule}}`: defines when Github actions upgrade should be scheduled. Must be one of `daily`, `earlyMondays`, `monthly`, `nonOfficeHours`, `quarterly`, `weekdays`, `weekends`, `weekly` or `yearly`
+- `github>belug-apps/renovate-config:group-by-chart({{chart-name}})`: group all upgrades occurring on the same chart name `{{chart-name}}`.
