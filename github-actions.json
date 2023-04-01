@@ -5,7 +5,8 @@
       "extends": ["schedule:{{arg0}}"],
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "Github actions"
+      "groupName": "GitHub actions",
+      "groupSlug": "github-actions"
     }
   ]
 }
