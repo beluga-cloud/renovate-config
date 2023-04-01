@@ -2,9 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchPaths": ["charts/{{arg0}}/**"],
-      "groupName": "charts `{{argo0}}` dependencies",
-      "groupSlug": "charts-{{arg0}}"
+      "matchFiles": ["charts/{{arg0}}/Chart.yaml", "charts/{{arg0}}/Chart.lock"],
+      "groupName": "charts `{{arg0}}` dependencies",
+      "groupSlug": "{{arg0}}"
     }
   ]
 }
