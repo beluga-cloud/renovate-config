@@ -1,13 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":semanticCommits"
+    ":semanticCommits",
+    ":semanticCommitType(:arrow_up: )"
   ],
   "packageRules": [
-    {
-      "matchPackagePatterns": ["*"],
-      "semanticCommitType": ":arrow_up: "
-    },
     {
       "matchDepTypes": ["dependencies", "require"],
       "semanticCommitType": ":green_heart: "
