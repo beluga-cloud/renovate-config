@@ -22,7 +22,6 @@
     ":prImmediately",
     ":renovatePrefix",
     ":semanticCommitScope(deps)",
-    ":semanticPrefixFixDepsChoreOthers",
     ":separateMultipleMajorReleases",
     "helpers:pinGitHubActionDigests",
     "regexManagers:dockerfileVersions"
